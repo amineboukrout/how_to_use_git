@@ -1,0 +1,8 @@
+creating a git repo:
+1. create the project directory on the local machine
+* you can either use the GUI or terminal --> mkdir folder_name
+2. open the project folder in git bash or open git bash anywhere and cd to path{folder_name}
+3. initialize the folder as a git repo --> git init
+4. use git status to see what files have been added or edited to the git repo
+5. add the desired files to be commited to the staging environment by using git add <filename>
+6. after git adding the files you want to commit, use the 'git commit' command to commit/add the file/s you added to the staging environment
