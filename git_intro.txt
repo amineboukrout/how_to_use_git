@@ -45,8 +45,16 @@ Additionally, you will be given the HTTPS/SSH for the repo.
 HTTPS: https://github.com/amineboukrout/how_to_use_git.git
 SSH: git@github.com:amineboukrout/how_to_use_git.git
 _____________________________________________________________________________________________________________________________________________________________________________________________________________
-DONE!
+Finally push and DONE!
+
+From here, we will be looking at Pull Requests
+A pull request is a way to alert the owner of the repo that you would like to make changes to their code.
 
 
+Let us consider we had a pull request from someone, he/she made some changes and merged the changes back to the master branch.
+now we would like to get these changes (because they're so good obviously :),) back to our local machine.
+so, at the moment, the GitHub repo looks different then our local version.
 
-change some change
+you can either git pull then you will have to deal with conflicts (which I hate) or you can use git clone
+--> git clone https://github.com/amineboukrout/how_to_use_git.git
+
