@@ -7,6 +7,7 @@ creating a git repo:
 5. add the desired files to be commited to the staging environment by using git add <filename>
 6. after git adding the files you want to commit, use the 'git commit' command to commit/add the file/s you added to the staging environment
 
+_____________________________________________________________________________________________________________________________________________________________________________________________________________
 now let us diverge to branches:
 let's say you want to add a feature to your code but you don't want to make changes to the main project, maybe because it is working perfectly. in this case, you would add/create a 'git branch'.
 a git branch allows you to move back and forth between different stages of a project.
@@ -16,3 +17,31 @@ checkout implies that git will move you to the created branch <my_branch_name>
 
 to confirm that your branch was created, run: git branch
 now, until you merge <my_branch_name> with the changes, those changes will not be shown.
+_____________________________________________________________________________________________________________________________________________________________________________________________________________
+
+side note: if you only want to keep track of your code locally, you will not need to use GitHub.
+but if you want to share your project, have multiple people work on the project or just have a backup of your project, then you can use GitHub to perform the afore mentioned.
+from 7. onwards, the description of how to make your project to be hosted on GitHub will be provided.
+
+7. the created repo is stored locally on the machine, to host the project on GitHub: logon to GitHub and create a new repo.
+_____________________________________________________________________________________________________________________________________________________________________________________________________________
+after creating the repo on GitHub, the following three options will be given:
+* …or create a new repository on the command line
+echo "# how_to_use_git" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/amineboukrout/how_to_use_git.git
+git push -u origin master
+
+* …or push an existing repository from the command line
+git remote add origin https://github.com/amineboukrout/how_to_use_git.git
+git push -u origin master
+
+* …or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+Additionally, you will be given the HTTPS/SSH for the repo.
+HTTPS: https://github.com/amineboukrout/how_to_use_git.git
+SSH: git@github.com:amineboukrout/how_to_use_git.git
+_____________________________________________________________________________________________________________________________________________________________________________________________________________
