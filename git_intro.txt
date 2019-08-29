@@ -6,3 +6,13 @@ creating a git repo:
 4. use git status to see what files have been added or edited to the git repo
 5. add the desired files to be commited to the staging environment by using git add <filename>
 6. after git adding the files you want to commit, use the 'git commit' command to commit/add the file/s you added to the staging environment
+
+now let us diverge to branches:
+let's say you want to add a feature to your code but you don't want to make changes to the main project, maybe because it is working perfectly. in this case, you would add/create a 'git branch'.
+a git branch allows you to move back and forth between different stages of a project.
+once you are done adding the features and you are happy with its functionality, you can merge your changes from the branch you created to the master/main branch.
+to branch off or create a branch: git checkout -b <my_branch_name>
+checkout implies that git will move you to the created branch <my_branch_name>
+
+to confirm that your branch was created, run: git branch
+now, until you merge <my_branch_name> with the changes, those changes will not be shown.
