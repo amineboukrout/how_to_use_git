@@ -45,3 +45,4 @@ Additionally, you will be given the HTTPS/SSH for the repo.
 HTTPS: https://github.com/amineboukrout/how_to_use_git.git
 SSH: git@github.com:amineboukrout/how_to_use_git.git
 _____________________________________________________________________________________________________________________________________________________________________________________________________________
+DONE!
